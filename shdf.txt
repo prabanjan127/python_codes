@@ -1,0 +1,28 @@
+
+IMAGE ='Image'
+attachment_box=driver.find_element('//div[@title="Attach"]')
+attachment_box.click()
+image_box=driver.find_element('//input[@accept="image/*,video/mp4,video/3gpp,video/quicktime"]')
+image_box.send_keys (FILE_LOC)
+
+
+
+
+def printData(image, type):
+    if type =='INFO':
+        print('[' +colored(datetime.datetime.now().strftime('%H:%M:%S'), 'cyan') + '][' + colored('INFO', 'green') + '] ' + image)
+    elif type == 'WARNING':
+        print('[' + colored(datetime.datetime.now().strftime('%H:%M:%S'), 'cyan') + '][' + colored('WARNING', 'yellow') +  '] ' + image)
+    elif type == 'ERROR':
+        print('[' + colored(datetime.datetime.now().strftime('%H:%M:%S'), 'cyan') + '][' + colored('ERROR', 'red') +  '] ' + image)
+
+
+
+
+
+C:\Windows\System32;C:\src\flutter\bin;
+
+
+
+
+
