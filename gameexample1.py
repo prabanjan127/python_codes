@@ -20,7 +20,7 @@ pygame.draw.line(DISPLAYSURF, BLUE, (150,130), (170,170))
 pygame.draw.line(DISPLAYSURF, GREEN, (130,170), (170,170))
 pygame.draw.circle(DISPLAYSURF, BLACK, (100,50), 30)
 pygame.draw.circle(DISPLAYSURF, BLACK, (200,50), 30)
-pygame.draw.rect(DISPLAYSURF, RED, (100, 200, 100, 50), 2)
+pygame.draw.rect(DISPLAYSURF, RED, (100, 200, 100, 50), 2)   
 pygame.draw.rect(DISPLAYSURF, BLACK, (110, 260, 80, 5))
 
 while True:
