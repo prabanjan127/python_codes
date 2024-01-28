@@ -1,3 +1,4 @@
+i=0
 while(i<=6):
     for j in range(1,i):
         print(j,end='\t')
